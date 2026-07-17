@@ -46,7 +46,6 @@ pip install pandas numpy matplotlib seaborn fastapi pydantic "passlib[argon2]" P
 
 # Web Sitesi Arayüzü
 
-## Web sitesinin ara yüzü
 API uç noktaları ve JWT tabanlı kimlik doğrulama yönetimini gösteren web arayüzü.
 ![Web Sitesinin Ara Yüzü](kuantum_api_arayuz.jpeg)
 
