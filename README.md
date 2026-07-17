@@ -40,3 +40,31 @@ Projedeki simülasyonların, API sunucusunun ve optimizasyon algoritmalarının 
 Tüm dış bağımlılıkları tek seferde kurmak için terminalinizde aşağıdaki komutu çalıştırabilirsiniz:
 ```bash
 pip install pandas numpy matplotlib seaborn fastapi pydantic "passlib[argon2]" PyJWT dimod neal transformers
+
+
+
+
+# Web Sitesi Arayüzü
+
+## Web sitesinin ara yüzü
+API uç noktaları ve JWT tabanlı kimlik doğrulama yönetimini gösteren web arayüzü.
+![Web Sitesinin Ara Yüzü](kuantum_api_arayuz.jpeg)
+
+### Simülasyon Çıktısı (Örnek JSON)
+Portföy optimizasyonu sonucunda API tarafından döndürülen örnek JSON çıktısı:
+```json
+{
+  "islem_durumu": "Tünelleme tamamlandı. Kuantum motoru optimum portföyü kilitledi.",
+  "yatirim_vadesi": "Uzun Vadeli Yatırım (2 Yıl)",
+  "fon_dagilimi": {
+    "JNJ": "166666.67 TL",
+    "PG": "166666.67 TL",
+    "WMT": "166666.67 TL",
+    "MCD": "166666.67 TL",
+    "KO": "166666.67 TL",
+    "UNH": "166666.67 TL"
+  },
+  "ilk_yatirilan_tutar": "1000000.00 TL",
+  "tunelleme_sonrasi_guncel_para": "2500000.00 TL",
+  "net_kazanc": "1500000.00 TL"
+}
