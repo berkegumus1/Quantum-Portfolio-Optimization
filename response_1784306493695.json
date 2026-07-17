@@ -1,0 +1,15 @@
+{
+  "islem_durumu": "Tünelleme tamamlandı. Kuantum motoru optimum portföyü kilitledi.",
+  "yatirim_vadesi": "Uzun Vadeli Yatırım (2 Yıl)",
+  "fon_dagilimi": {
+    "JNJ": "166666.67 TL",
+    "PG": "166666.67 TL",
+    "WMT": "166666.67 TL",
+    "MCD": "166666.67 TL",
+    "KO": "166666.67 TL",
+    "UNH": "166666.67 TL"
+  },
+  "ilk_yatirilan_tutar": "1000000.00 TL",
+  "tunelleme_sonrasi_guncel_para": "2500000.00 TL",
+  "net_kazanc": "1500000.00 TL"
+}
